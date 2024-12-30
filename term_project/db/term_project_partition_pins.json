@@ -1,0 +1,149 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "col[0]",
+					"strict" : false
+				},
+				{
+					"name" : "col[1]",
+					"strict" : false
+				},
+				{
+					"name" : "col[2]",
+					"strict" : false
+				},
+				{
+					"name" : "col[3]",
+					"strict" : false
+				},
+				{
+					"name" : "hex0[6]",
+					"strict" : false
+				},
+				{
+					"name" : "hex0[5]",
+					"strict" : false
+				},
+				{
+					"name" : "hex0[4]",
+					"strict" : false
+				},
+				{
+					"name" : "hex0[3]",
+					"strict" : false
+				},
+				{
+					"name" : "hex0[2]",
+					"strict" : false
+				},
+				{
+					"name" : "hex0[1]",
+					"strict" : false
+				},
+				{
+					"name" : "hex0[0]",
+					"strict" : false
+				},
+				{
+					"name" : "hex1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "hex1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "hex1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "hex1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "hex1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "hex1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "hex1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "hex2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "hex2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "hex2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "hex2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "hex2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "hex2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sign",
+					"strict" : false
+				},
+				{
+					"name" : "ovr",
+					"strict" : false
+				},
+				{
+					"name" : "zero",
+					"strict" : false
+				},
+				{
+					"name" : "invalid",
+					"strict" : false
+				},
+				{
+					"name" : "clr_all",
+					"strict" : false
+				},
+				{
+					"name" : "row[1]",
+					"strict" : false
+				},
+				{
+					"name" : "row[2]",
+					"strict" : false
+				},
+				{
+					"name" : "row[3]",
+					"strict" : false
+				},
+				{
+					"name" : "row[0]",
+					"strict" : false
+				},
+				{
+					"name" : "clk_in",
+					"strict" : false
+				},
+				{
+					"name" : "clr_entry",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

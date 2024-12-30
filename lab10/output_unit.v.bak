@@ -1,0 +1,32 @@
+module output_unit(
+	input [7:0] in,
+
+	output [0:6] hex0,
+	output [0:6] hex1,
+	output [0:6] hex2,
+	output reg sign
+);
+	
+	reg [7:0] magnitude;
+	
+	wire [3:0] first;
+	wire [3:0] second;
+	wire [1:0] third;
+	
+	//Convert magnitude to BCD
+	binary2bcd(.in(magnitude), .first(first), .second(second), .third(third));
+	
+	//Seven-segment display drivers
+	bcd2seven(.in(first), .out(hex0)); //LSB
+	bcd2seven(.in(second), .out(hex1));
+	bcd2seven(.in(third), .out(hex2)); //MSB
+
+	always @ (in) begin
+		// Twos-complement
+		if(in[7] == 1) begin 
+			magnitude = ~in + 1; sign = 0;
+		end
+		else begin magnitude = in; sign = 1; end
+	end
+
+endmodule

@@ -1,0 +1,165 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "result[0]",
+					"strict" : false
+				},
+				{
+					"name" : "result[1]",
+					"strict" : false
+				},
+				{
+					"name" : "result[2]",
+					"strict" : false
+				},
+				{
+					"name" : "result[3]",
+					"strict" : false
+				},
+				{
+					"name" : "result[4]",
+					"strict" : false
+				},
+				{
+					"name" : "result[5]",
+					"strict" : false
+				},
+				{
+					"name" : "result[6]",
+					"strict" : false
+				},
+				{
+					"name" : "result[7]",
+					"strict" : false
+				},
+				{
+					"name" : "flags[0]",
+					"strict" : false
+				},
+				{
+					"name" : "flags[1]",
+					"strict" : false
+				},
+				{
+					"name" : "flags[2]",
+					"strict" : false
+				},
+				{
+					"name" : "flags[3]",
+					"strict" : false
+				},
+				{
+					"name" : "displays[1][6]",
+					"strict" : false
+				},
+				{
+					"name" : "displays[1][5]",
+					"strict" : false
+				},
+				{
+					"name" : "displays[1][4]",
+					"strict" : false
+				},
+				{
+					"name" : "displays[1][3]",
+					"strict" : false
+				},
+				{
+					"name" : "displays[1][2]",
+					"strict" : false
+				},
+				{
+					"name" : "displays[1][1]",
+					"strict" : false
+				},
+				{
+					"name" : "displays[1][0]",
+					"strict" : false
+				},
+				{
+					"name" : "displays[0][6]",
+					"strict" : false
+				},
+				{
+					"name" : "displays[0][5]",
+					"strict" : false
+				},
+				{
+					"name" : "displays[0][4]",
+					"strict" : false
+				},
+				{
+					"name" : "displays[0][3]",
+					"strict" : false
+				},
+				{
+					"name" : "displays[0][2]",
+					"strict" : false
+				},
+				{
+					"name" : "displays[0][1]",
+					"strict" : false
+				},
+				{
+					"name" : "displays[0][0]",
+					"strict" : false
+				},
+				{
+					"name" : "out",
+					"strict" : false
+				},
+				{
+					"name" : "clear",
+					"strict" : false
+				},
+				{
+					"name" : "mode",
+					"strict" : false
+				},
+				{
+					"name" : "in[0]",
+					"strict" : false
+				},
+				{
+					"name" : "loadA",
+					"strict" : false
+				},
+				{
+					"name" : "loadB",
+					"strict" : false
+				},
+				{
+					"name" : "in[1]",
+					"strict" : false
+				},
+				{
+					"name" : "in[2]",
+					"strict" : false
+				},
+				{
+					"name" : "in[3]",
+					"strict" : false
+				},
+				{
+					"name" : "in[4]",
+					"strict" : false
+				},
+				{
+					"name" : "in[5]",
+					"strict" : false
+				},
+				{
+					"name" : "in[6]",
+					"strict" : false
+				},
+				{
+					"name" : "in[7]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

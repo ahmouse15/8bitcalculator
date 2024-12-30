@@ -1,0 +1,49 @@
+|main
+trig => trig.IN1
+value[0] => value[0].IN1
+value[1] => value[1].IN1
+value[2] => value[2].IN1
+value[3] => value[3].IN1
+clk => clk.IN1
+clr_entry => clr_entry.IN1
+clr_all => clr_all.IN1
+reset << control_unit:cu1.reset
+load_a << control_unit:cu1.load_a
+load_b << control_unit:cu1.load_b
+addsub << control_unit:cu1.addsub
+load_r << control_unit:cu1.load_r
+iu_au << control_unit:cu1.iu_au
+
+
+|main|control_unit:cu1
+trig => addsub~reg0.CLK
+trig => state~2.DATAIN
+value[0] => Equal0.IN3
+value[0] => Equal1.IN2
+value[0] => Equal2.IN3
+value[1] => Equal0.IN1
+value[1] => Equal1.IN1
+value[1] => Equal2.IN2
+value[2] => Equal0.IN2
+value[2] => Equal1.IN3
+value[2] => Equal2.IN1
+value[3] => Equal0.IN0
+value[3] => Equal1.IN0
+value[3] => Equal2.IN0
+clk => ~NO_FANOUT~
+clr_entry => state.OUTPUTSELECT
+clr_entry => state.OUTPUTSELECT
+clr_entry => state.OUTPUTSELECT
+clr_entry => state.OUTPUTSELECT
+clr_entry => state.OUTPUTSELECT
+clr_entry => addsub.OUTPUTSELECT
+clr_all => state~4.DATAIN
+clr_all => addsub~reg0.ENA
+reset <= reset.DB_MAX_OUTPUT_PORT_TYPE
+load_a <= load_a.DB_MAX_OUTPUT_PORT_TYPE
+load_b <= load_b.DB_MAX_OUTPUT_PORT_TYPE
+addsub <= addsub~reg0.DB_MAX_OUTPUT_PORT_TYPE
+load_r <= iu_au.DB_MAX_OUTPUT_PORT_TYPE
+iu_au <= iu_au.DB_MAX_OUTPUT_PORT_TYPE
+
+

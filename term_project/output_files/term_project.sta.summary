@@ -1,0 +1,245 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'control_unit:comb_6|state.S4'
+Slack : -11.836
+TNS   : -91.345
+
+Type  : Slow 1200mV 85C Model Setup 'control_unit:comb_6|state.S2'
+Slack : -11.714
+TNS   : -91.807
+
+Type  : Slow 1200mV 85C Model Setup 'clk_in'
+Slack : -9.577
+TNS   : -103.185
+
+Type  : Slow 1200mV 85C Model Setup 'row[0]'
+Slack : -5.873
+TNS   : -88.906
+
+Type  : Slow 1200mV 85C Model Setup 'control_unit:comb_6|state.S5'
+Slack : -3.471
+TNS   : -26.242
+
+Type  : Slow 1200mV 85C Model Setup 'input_unit:comb_7|keypad_input:comb_3|keypad_base:keypad_base|nclk:keypad_clock_divider|clk_out'
+Slack : -2.593
+TNS   : -14.168
+
+Type  : Slow 1200mV 85C Model Hold 'clk_in'
+Slack : 0.341
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'input_unit:comb_7|keypad_input:comb_3|keypad_base:keypad_base|nclk:keypad_clock_divider|clk_out'
+Slack : 0.378
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'row[0]'
+Slack : 0.494
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'control_unit:comb_6|state.S5'
+Slack : 0.892
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'control_unit:comb_6|state.S4'
+Slack : 5.847
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'control_unit:comb_6|state.S2'
+Slack : 6.079
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'row[0]'
+Slack : -4.089
+TNS   : -69.148
+
+Type  : Slow 1200mV 85C Model Removal 'row[0]'
+Slack : 0.976
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'row[0]'
+Slack : -3.000
+TNS   : -129.144
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk_in'
+Slack : -3.000
+TNS   : -50.702
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'control_unit:comb_6|state.S5'
+Slack : -1.403
+TNS   : -14.030
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'control_unit:comb_6|state.S2'
+Slack : -1.403
+TNS   : -11.224
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'control_unit:comb_6|state.S4'
+Slack : -1.403
+TNS   : -11.224
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'input_unit:comb_7|keypad_input:comb_3|keypad_base:keypad_base|nclk:keypad_clock_divider|clk_out'
+Slack : -1.403
+TNS   : -11.224
+
+Type  : Slow 1200mV 0C Model Setup 'control_unit:comb_6|state.S4'
+Slack : -10.820
+TNS   : -83.361
+
+Type  : Slow 1200mV 0C Model Setup 'control_unit:comb_6|state.S2'
+Slack : -10.694
+TNS   : -83.775
+
+Type  : Slow 1200mV 0C Model Setup 'clk_in'
+Slack : -8.830
+TNS   : -91.935
+
+Type  : Slow 1200mV 0C Model Setup 'row[0]'
+Slack : -5.498
+TNS   : -82.935
+
+Type  : Slow 1200mV 0C Model Setup 'control_unit:comb_6|state.S5'
+Slack : -3.149
+TNS   : -23.472
+
+Type  : Slow 1200mV 0C Model Setup 'input_unit:comb_7|keypad_input:comb_3|keypad_base:keypad_base|nclk:keypad_clock_divider|clk_out'
+Slack : -2.376
+TNS   : -12.564
+
+Type  : Slow 1200mV 0C Model Hold 'clk_in'
+Slack : 0.306
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'input_unit:comb_7|keypad_input:comb_3|keypad_base:keypad_base|nclk:keypad_clock_divider|clk_out'
+Slack : 0.339
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'row[0]'
+Slack : 0.384
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'control_unit:comb_6|state.S5'
+Slack : 0.836
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'control_unit:comb_6|state.S4'
+Slack : 5.418
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'control_unit:comb_6|state.S2'
+Slack : 5.619
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'row[0]'
+Slack : -3.950
+TNS   : -66.810
+
+Type  : Slow 1200mV 0C Model Removal 'row[0]'
+Slack : 0.714
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'row[0]'
+Slack : -3.000
+TNS   : -119.547
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk_in'
+Slack : -3.000
+TNS   : -50.702
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'control_unit:comb_6|state.S5'
+Slack : -1.403
+TNS   : -14.030
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'control_unit:comb_6|state.S2'
+Slack : -1.403
+TNS   : -11.224
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'control_unit:comb_6|state.S4'
+Slack : -1.403
+TNS   : -11.224
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'input_unit:comb_7|keypad_input:comb_3|keypad_base:keypad_base|nclk:keypad_clock_divider|clk_out'
+Slack : -1.403
+TNS   : -11.224
+
+Type  : Fast 1200mV 0C Model Setup 'control_unit:comb_6|state.S4'
+Slack : -4.817
+TNS   : -37.259
+
+Type  : Fast 1200mV 0C Model Setup 'control_unit:comb_6|state.S2'
+Slack : -4.814
+TNS   : -37.661
+
+Type  : Fast 1200mV 0C Model Setup 'clk_in'
+Slack : -4.039
+TNS   : -28.165
+
+Type  : Fast 1200mV 0C Model Setup 'row[0]'
+Slack : -2.118
+TNS   : -32.063
+
+Type  : Fast 1200mV 0C Model Setup 'input_unit:comb_7|keypad_input:comb_3|keypad_base:keypad_base|nclk:keypad_clock_divider|clk_out'
+Slack : -1.072
+TNS   : -3.953
+
+Type  : Fast 1200mV 0C Model Setup 'control_unit:comb_6|state.S5'
+Slack : -1.001
+TNS   : -6.193
+
+Type  : Fast 1200mV 0C Model Hold 'clk_in'
+Slack : 0.148
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'input_unit:comb_7|keypad_input:comb_3|keypad_base:keypad_base|nclk:keypad_clock_divider|clk_out'
+Slack : 0.166
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'control_unit:comb_6|state.S5'
+Slack : 0.302
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'row[0]'
+Slack : 0.474
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'control_unit:comb_6|state.S4'
+Slack : 2.535
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'control_unit:comb_6|state.S2'
+Slack : 2.640
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'row[0]'
+Slack : -1.777
+TNS   : -29.894
+
+Type  : Fast 1200mV 0C Model Removal 'row[0]'
+Slack : 0.636
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'row[0]'
+Slack : -3.000
+TNS   : -59.954
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk_in'
+Slack : -3.000
+TNS   : -38.109
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'control_unit:comb_6|state.S5'
+Slack : -1.000
+TNS   : -10.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'control_unit:comb_6|state.S2'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'control_unit:comb_6|state.S4'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'input_unit:comb_7|keypad_input:comb_3|keypad_base:keypad_base|nclk:keypad_clock_divider|clk_out'
+Slack : -1.000
+TNS   : -8.000
+
+------------------------------------------------------------

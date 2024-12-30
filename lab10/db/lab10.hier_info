@@ -1,0 +1,299 @@
+|main
+in[0] => value.DATAA
+in[1] => value.DATAA
+in[2] => value.DATAA
+in[3] => value.DATAA
+in[4] => value.DATAA
+in[5] => value.DATAA
+in[6] => value.DATAA
+in[7] => value.DATAA
+clk => clk.IN1
+reset => reset.IN1
+mode => value.OUTPUTSELECT
+mode => value.OUTPUTSELECT
+mode => value.OUTPUTSELECT
+mode => value.OUTPUTSELECT
+mode => value.OUTPUTSELECT
+mode => value.OUTPUTSELECT
+mode => value.OUTPUTSELECT
+mode => value.OUTPUTSELECT
+mode => test_enable.IN1
+hex0[6] << calculator_output:comb_5.hex0
+hex0[5] << calculator_output:comb_5.hex0
+hex0[4] << calculator_output:comb_5.hex0
+hex0[3] << calculator_output:comb_5.hex0
+hex0[2] << calculator_output:comb_5.hex0
+hex0[1] << calculator_output:comb_5.hex0
+hex0[0] << calculator_output:comb_5.hex0
+hex1[6] << calculator_output:comb_5.hex1
+hex1[5] << calculator_output:comb_5.hex1
+hex1[4] << calculator_output:comb_5.hex1
+hex1[3] << calculator_output:comb_5.hex1
+hex1[2] << calculator_output:comb_5.hex1
+hex1[1] << calculator_output:comb_5.hex1
+hex1[0] << calculator_output:comb_5.hex1
+hex2[6] << calculator_output:comb_5.hex2
+hex2[5] << calculator_output:comb_5.hex2
+hex2[4] << calculator_output:comb_5.hex2
+hex2[3] << calculator_output:comb_5.hex2
+hex2[2] << calculator_output:comb_5.hex2
+hex2[1] << calculator_output:comb_5.hex2
+hex2[0] << calculator_output:comb_5.hex2
+sign << calculator_output:comb_5.sign
+
+
+|main|nclk:comb_3
+clk => clk_out~reg0.CLK
+clk => count[0].CLK
+clk => count[1].CLK
+clk => count[2].CLK
+clk => count[3].CLK
+clk => count[4].CLK
+clk => count[5].CLK
+clk => count[6].CLK
+clk => count[7].CLK
+clk => count[8].CLK
+clk => count[9].CLK
+clk => count[10].CLK
+clk => count[11].CLK
+clk => count[12].CLK
+clk => count[13].CLK
+clk => count[14].CLK
+clk => count[15].CLK
+clk => count[16].CLK
+clk => count[17].CLK
+clk => count[18].CLK
+clk => count[19].CLK
+clk => count[20].CLK
+clk => count[21].CLK
+clk => count[22].CLK
+clk => count[23].CLK
+clk => count[24].CLK
+clk => count[25].CLK
+clk_out <= clk_out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|test_generator:comb_4
+clk => out[0]~reg0.CLK
+clk => out[1]~reg0.CLK
+clk => out[2]~reg0.CLK
+clk => out[3]~reg0.CLK
+clk => out[4]~reg0.CLK
+clk => out[5]~reg0.CLK
+clk => out[6]~reg0.CLK
+clk => out[7]~reg0.CLK
+enable => out[0]~reg0.ENA
+enable => out[7]~reg0.ENA
+enable => out[6]~reg0.ENA
+enable => out[5]~reg0.ENA
+enable => out[4]~reg0.ENA
+enable => out[3]~reg0.ENA
+enable => out[2]~reg0.ENA
+enable => out[1]~reg0.ENA
+reset => out[0]~reg0.ACLR
+reset => out[1]~reg0.ACLR
+reset => out[2]~reg0.ACLR
+reset => out[3]~reg0.ACLR
+reset => out[4]~reg0.ACLR
+reset => out[5]~reg0.ACLR
+reset => out[6]~reg0.ACLR
+reset => out[7]~reg0.ACLR
+out[0] <= out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= out[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[4] <= out[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[5] <= out[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[6] <= out[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[7] <= out[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|calculator_output:comb_5
+in[0] => magnitude.DATAA
+in[0] => Add0.IN16
+in[1] => magnitude.DATAA
+in[1] => Add0.IN15
+in[2] => magnitude.DATAA
+in[2] => Add0.IN14
+in[3] => magnitude.DATAA
+in[3] => Add0.IN13
+in[4] => magnitude.DATAA
+in[4] => Add0.IN12
+in[5] => magnitude.DATAA
+in[5] => Add0.IN11
+in[6] => magnitude.DATAA
+in[6] => Add0.IN10
+in[7] => magnitude.OUTPUTSELECT
+in[7] => magnitude.OUTPUTSELECT
+in[7] => magnitude.OUTPUTSELECT
+in[7] => magnitude.OUTPUTSELECT
+in[7] => magnitude.OUTPUTSELECT
+in[7] => magnitude.OUTPUTSELECT
+in[7] => magnitude.OUTPUTSELECT
+in[7] => magnitude.OUTPUTSELECT
+in[7] => Add0.IN9
+in[7] => sign.DATAIN
+hex0[6] <= bcd2seven:comb_4.out
+hex0[5] <= bcd2seven:comb_4.out
+hex0[4] <= bcd2seven:comb_4.out
+hex0[3] <= bcd2seven:comb_4.out
+hex0[2] <= bcd2seven:comb_4.out
+hex0[1] <= bcd2seven:comb_4.out
+hex0[0] <= bcd2seven:comb_4.out
+hex1[6] <= bcd2seven:comb_5.out
+hex1[5] <= bcd2seven:comb_5.out
+hex1[4] <= bcd2seven:comb_5.out
+hex1[3] <= bcd2seven:comb_5.out
+hex1[2] <= bcd2seven:comb_5.out
+hex1[1] <= bcd2seven:comb_5.out
+hex1[0] <= bcd2seven:comb_5.out
+hex2[6] <= bcd2seven:comb_6.out
+hex2[5] <= bcd2seven:comb_6.out
+hex2[4] <= bcd2seven:comb_6.out
+hex2[3] <= bcd2seven:comb_6.out
+hex2[2] <= bcd2seven:comb_6.out
+hex2[1] <= bcd2seven:comb_6.out
+hex2[0] <= bcd2seven:comb_6.out
+sign <= in[7].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|calculator_output:comb_5|binary2bcd:comb_3
+in[0] => first[0].DATAIN
+in[1] => d5[0].IN1
+in[2] => d4[0].IN1
+in[3] => d3[0].IN1
+in[4] => d2[0].IN1
+in[5] => d1[0].IN1
+in[6] => d1[1].IN1
+in[7] => d1[2].IN1
+first[0] <= in[0].DB_MAX_OUTPUT_PORT_TYPE
+first[1] <= add3:m5.port1
+first[2] <= add3:m5.port1
+first[3] <= add3:m5.port1
+second[0] <= add3:m5.port1
+second[1] <= add3:m7.port1
+second[2] <= add3:m7.port1
+second[3] <= add3:m7.port1
+third[0] <= add3:m7.port1
+third[1] <= add3:m6.port1
+
+
+|main|calculator_output:comb_5|binary2bcd:comb_3|add3:m1
+in[0] => Decoder0.IN3
+in[1] => Decoder0.IN2
+in[2] => Decoder0.IN1
+in[3] => Decoder0.IN0
+out[0] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|calculator_output:comb_5|binary2bcd:comb_3|add3:m2
+in[0] => Decoder0.IN3
+in[1] => Decoder0.IN2
+in[2] => Decoder0.IN1
+in[3] => Decoder0.IN0
+out[0] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|calculator_output:comb_5|binary2bcd:comb_3|add3:m3
+in[0] => Decoder0.IN3
+in[1] => Decoder0.IN2
+in[2] => Decoder0.IN1
+in[3] => Decoder0.IN0
+out[0] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|calculator_output:comb_5|binary2bcd:comb_3|add3:m4
+in[0] => Decoder0.IN3
+in[1] => Decoder0.IN2
+in[2] => Decoder0.IN1
+in[3] => Decoder0.IN0
+out[0] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|calculator_output:comb_5|binary2bcd:comb_3|add3:m5
+in[0] => Decoder0.IN3
+in[1] => Decoder0.IN2
+in[2] => Decoder0.IN1
+in[3] => Decoder0.IN0
+out[0] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|calculator_output:comb_5|binary2bcd:comb_3|add3:m6
+in[0] => Decoder0.IN3
+in[1] => Decoder0.IN2
+in[2] => Decoder0.IN1
+in[3] => Decoder0.IN0
+out[0] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|calculator_output:comb_5|binary2bcd:comb_3|add3:m7
+in[0] => Decoder0.IN3
+in[1] => Decoder0.IN2
+in[2] => Decoder0.IN1
+in[3] => Decoder0.IN0
+out[0] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|calculator_output:comb_5|bcd2seven:comb_4
+in[0] => Decoder0.IN3
+in[1] => Decoder0.IN2
+in[2] => Decoder0.IN1
+in[3] => Decoder0.IN0
+out[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+out[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+out[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+out[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|calculator_output:comb_5|bcd2seven:comb_5
+in[0] => Decoder0.IN3
+in[1] => Decoder0.IN2
+in[2] => Decoder0.IN1
+in[3] => Decoder0.IN0
+out[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+out[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+out[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+out[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main|calculator_output:comb_5|bcd2seven:comb_6
+in[0] => Decoder0.IN3
+in[1] => Decoder0.IN2
+in[2] => Decoder0.IN1
+in[3] => Decoder0.IN0
+out[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+out[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+out[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+out[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

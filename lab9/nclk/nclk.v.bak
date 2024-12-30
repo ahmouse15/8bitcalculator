@@ -1,0 +1,6 @@
+module n_clk #(parameter f = 1, parameter inputhz = 50000000) (
+	input clk,
+	
+	output reg clk_out);
+		
+endmodule

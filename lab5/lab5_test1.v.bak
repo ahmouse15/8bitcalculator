@@ -1,0 +1,7 @@
+module (
+	input [3:0] in,
+	output reg msb,
+	output reg lsb
+	);
+	
+endmodule
